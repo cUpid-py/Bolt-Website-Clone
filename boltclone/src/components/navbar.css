@@ -1,0 +1,25 @@
+.navbarsec{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 3rem;
+    margin-top: .6rem;
+}
+
+.navbarsec .navtexts ul a{
+    display: inline-block;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navtexts li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.navbarsec .navlogo{
+    margin-top: 1rem;
+}

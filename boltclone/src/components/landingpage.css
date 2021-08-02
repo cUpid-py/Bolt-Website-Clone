@@ -1,0 +1,32 @@
+*{
+    font-family: montserrat,Arial,sans-serif;
+}
+
+
+.lpagesec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.3rem;
+}
+
+.lptext{
+    font-size: 2.3rem;
+    height: 100vh;
+    width: 120vh;
+    background-color:#2EB875;
+    color: white;
+    line-height: 1.2;
+    padding: 50px;
+    /* padding-right: 100px; */
+}
+
+.lpimg img{
+    height: 100vh;
+    width: 100vh;
+    background-position:center;
+    background-size: contain;
+}
+
+.lptext p{
+    font-size: 1rem;
+}

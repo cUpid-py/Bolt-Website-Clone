@@ -1,0 +1,35 @@
+*{
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+
+.dsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    background-color: #4F5CD1;
+    height: 40vh;
+    color: white;
+
+}
+
+.dsec .dtents{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dsec h2{
+    font-size: 2rem;
+}
+
+.dsec .dtents button{
+    padding: 20px 40px 20px 40px;
+    /* position:absolute; */
+    background-color: aqua;
+    border-radius: 60px;
+    border-style: none;
+    font-weight: 700;
+    
+}

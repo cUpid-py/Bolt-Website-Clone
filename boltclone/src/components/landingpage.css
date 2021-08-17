@@ -1,15 +1,16 @@
-*{
+.lpagesec *{
     font-family: montserrat,Arial,sans-serif;
+    /* margin: 0px; */
 }
 
 
 .lpagesec{
-    position: relative;
+    /* position: relative; */
     display: flex;
     height: 100vh;
     flex-direction: row;
     margin-top: 1.3rem;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     background-color: #2EB875;
 }
 
@@ -47,4 +48,13 @@
 .lpagesec .lptext h6{
     font-size: 1rem;
     font-weight: 600;
+}
+
+.lpagesec .lptext .req{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 40px;
+    /* position: absolute; */
+    margin: 0px;
+    display: flex;
 }

@@ -3,6 +3,8 @@ import "./landingpage.css"
 import indeximg from "../assets/index-header.jpg"
 import googleplay from "../assets/googleplay.svg"
 import appstore from "../assets/app story.svg"
+import dload from "../assets/download (2).svg"
+
 
 
 const landingpage = () => {
@@ -20,7 +22,11 @@ const landingpage = () => {
                         <img className="android" src={googleplay} alt=""  width="155px" height="60px" />
                     </div>
 
-                    <div> <h6>REQUEST A RIDE ONLINE</h6> </div>
+                        
+                    <div className="req"> 
+                        <h6>REQUEST A RIDE ONLINE </h6> 
+                        <img src={dload} alt="" /> 
+                    </div>
                     
                 </div>
 

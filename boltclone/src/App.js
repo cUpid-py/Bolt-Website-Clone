@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Landingpage from "./components/landingpage"
+import Driving from "./components/driving"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header>
         <Navbar/>
         <Landingpage/>
+        <Driving/>
       
       </header>
     </div>
